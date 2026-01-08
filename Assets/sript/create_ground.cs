@@ -24,7 +24,7 @@ public class create_ground : MonoBehaviour
             if (Image.fillAmount >= 1)
             {
                 Image.fillAmount -= 1;
-                stat.ground += (dysonsphere_Generateur.maxDysonsphere + trousnoirrotatife_Generateur.maxGTNR) + 1f;
+                stat.ground += ((dysonsphere_Generateur.maxDysonsphere + trousnoirrotatife_Generateur.maxGTNR) + 1f) * 1000;
             }
             Image.fillAmount += 0.1f * Time.deltaTime;
         }
